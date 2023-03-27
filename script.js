@@ -37,10 +37,25 @@ if (idade <=12){
     document.write("É um adulto")
 }
 */
-
+/*
 let valor = prompt("Digite um valor: ")
 if (valor > 10){
     document.write("O valor é Maior que 10")
 } else{
     document.write("O valor é Menor que 10")
+}
+*/
+let valor = prompt("Digite um número")
+if(valor >= 10 && valor <= 20){
+    document.write("Este valor está entre 10 e 20")
+} else{
+    document.write("Este valor não está entre 10 e 20")
+}
+
+let valor2 = prompt("Digite um número")
+document.write("<br>")
+if(valor >= 10 || valor <= 20){
+    document.write("Este valor está entre 10 e 20")
+} else{
+    document.write("Este valor não está entre 10 e 20")
 }
